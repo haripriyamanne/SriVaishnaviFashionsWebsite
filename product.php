@@ -33,6 +33,9 @@
                                         <li>
                                             <a href="Srivaishnavifashions1976@gmail.com"><i class="fa fa-envelope me-2"></i>Srivaishnavifashions1976@gmail.com</a>
                                         </li>
+                                        <li>
+                                        <a href="https://instagram.com/sri_vaishnavi_fashions?utm_medium=copy_link" target="_blank"><i class="fab fa-instagram me-2"></i></a>
+                                    </li>
                                     </ul>
                                 </div>
                                 <div class="col-auto">

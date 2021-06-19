@@ -42,6 +42,9 @@
                                     <li>
                                         <a href="login.php"><i class="fas fa-sign-in-alt me-2"></i>Login</a>
                                     </li>
+                                    <li>
+                                        <a href="https://instagram.com/sri_vaishnavi_fashions?utm_medium=copy_link" target="_blank"><i class="fab fa-instagram me-2"></i></a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
