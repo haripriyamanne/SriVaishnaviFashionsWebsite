@@ -32,6 +32,7 @@
                                         <li>
                                             <a href="Srivaishnavifashions1976@gmail.com"><i class="fa fa-envelope me-2"></i>Srivaishnavifashions1976@gmail.com</a>
                                         </li>
+                                        
                                     </ul>
                                 </div>
                                 <div class="col-auto">
