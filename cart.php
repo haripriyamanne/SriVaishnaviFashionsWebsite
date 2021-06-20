@@ -221,8 +221,8 @@
                                         </table>
                                     </div>
                                     <div class="col-12 text-right">
-                                        <button class="btn btn-outline-secondary me-3" type="submit">Update</button>
-                                        <a href="#" class="btn btn-outline-success">Checkout</a>
+                                        <!-- <button class="btn btn-outline-secondary me-3" type="submit">Update</button> -->
+                                        <a href="#" class="btn btn-outline-success">Place Order</a>
                                     </div>
                                 </form>
                             </div>

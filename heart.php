@@ -154,7 +154,7 @@
                 <!-- Main Content -->
                 <div class="row">
                     <div class="col-12 mt-3 text-center text-uppercase">
-                        <h2>Shopping Cart</h2>
+                        <h2>Wishtlist Items</h2>
                     </div>
                 </div>
 
@@ -222,8 +222,8 @@
                                         </table>
                                     </div>
                                     <div class="col-12 text-right">
-                                        <button class="btn btn-outline-secondary me-3" type="submit">Update</button>
-                                        <a href="#" class="btn btn-outline-success">Checkout</a>
+                                        <!-- <button class="btn btn-outline-secondary me-3" type="submit">Update</button> -->
+                                        <a href="cart.php" class="btn btn-outline-success">Add to Cart</a>
                                     </div>
                                 </form>
                             </div>

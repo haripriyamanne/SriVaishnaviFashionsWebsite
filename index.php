@@ -75,7 +75,7 @@
                             </div>
                             <div class="col-lg-auto text-center text-lg-left header-item-holder">
                                 <a href="heart.php" class="header-item">
-                                    <i class="fas fa-heart me-2"></i><span id="header-favorite">0</span>
+                                    <i class="fas fa-heart me-2"></i><span id="header-favorite">2</span>
                                 </a>
                                     <a href="save.php" class="header-item">
                                     <i class="fas fa-save me-2"></i><span id="header-favorite">2</span>
@@ -165,6 +165,7 @@
                                 <li data-bs-target="#slider" data-bs-slide-to="0" class="active"></li>
                                 <li data-bs-target="#slider" data-bs-slide-to="1"></li>
                                 <li data-bs-target="#slider" data-bs-slide-to="2"></li>
+                                <li data-bs-target="#slider" data-bs-slide-to="3"></li>
                             </ol>
                             <div class="carousel-inner" role="listbox">
                                 <div class="carousel-item active">
@@ -175,6 +176,9 @@
                                 </div>
                                 <div class="carousel-item">
                                     <img src="images/slider-3.jpg" class="slider-img">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/slider-1.jpg" class="slider-img">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
@@ -210,7 +214,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="col-12 mb-3">
-                                                    <a href="product.php" class="product-name">Maggam Works</a>
+                                                    <a href="category.php" class="product-name">Maggam Works</a>
                                                 </div>
                                                 <div class="col-12 mb-3">
                                                     <span class="product-price-old">
@@ -239,7 +243,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="col-12 mb-3">
-                                                    <a href="product.php" class="product-name">Machine Embroidery</a>
+                                                    <a href="category.php" class="product-name">Machine Embroidery</a>
                                                 </div>
                                                 <div class="col-12 mb-3">
                                                     <span class="product-price">
@@ -574,6 +578,7 @@
                                         </div>
                                     </div>
                                     <!-- Product -->
+                                    
 
                                 </div>
                             </div>

@@ -174,7 +174,7 @@
                                                 </a>
                                             </div>
                                             <div class="col-12 mb-3">
-                                                <a href="product.php" class="product-name">Sony Alpha DSLR Camera</a>
+                                                <a href="saleitems.php" class="product-name">Sony Alpha DSLR Camera</a>
                                             </div>
                                             <div class="col-12 mb-3">
                                                     <span class="product-price-old">

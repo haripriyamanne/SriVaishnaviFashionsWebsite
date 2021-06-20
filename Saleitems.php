@@ -219,7 +219,7 @@
                                             </div>
                                         </div>
                                         <div class="col-12 mt-3">
-                                            <button class="btn btn-outline-dark" type="button"><i class="fas fa-save me-2"></i>Add to Save</button>
+                                            <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus me-2"></i>Add to Cart</button>
                                         </div>
                                         <div class="col-12 mt-3">
                                             <button class="btn btn-outline-secondary btn-sm" type="button"><i class="fas fa-heart me-2"></i>Add to wishlist</button>
