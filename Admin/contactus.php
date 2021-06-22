@@ -122,6 +122,7 @@
                                             <tr>
                                                 <th>ID</th>
                                                 <th>Name</th>
+                                                <th>Phone Number</th>
                                                 <th>Email</th>
                                                 <th>Subject</th>
                                                 <th>Your Message</th>
@@ -131,6 +132,7 @@
                                             <tr>
                                                 <td>1</td>
                                                 <td>Hari</td>
+                                                <td>9676235899</td>
                                                 <td>haripriya@gmail.com</td>
                                                 <td>Reg New Models</td>
                                                 <td>I want this models please send to my address</td>
@@ -138,6 +140,7 @@
                                             <tr>
                                             <td>1</td>
                                                 <td>Priya</td>
+                                                <td>9676235899</td>
                                                 <td>haripriya@gmail.com</td>
                                                 <td>Reg New Models</td>
                                                 <td>I want this models please send to my address</td>
