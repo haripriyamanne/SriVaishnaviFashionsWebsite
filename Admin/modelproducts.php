@@ -7,10 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>E-Commerce Template</title>
 
-    <!-- <link href="//fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i" rel="stylesheet"> -->
-    
     <link href="assets/vendor/fontawesome/css/fontawesome.min.css" rel="stylesheet">
     <link href="assets/vendor/fontawesome/css/solid.min.css" rel="stylesheet">
     <link href="assets/vendor/fontawesome/css/brands.min.css" rel="stylesheet">
@@ -62,8 +58,9 @@
                                 </a>
                             </div>
                         </div>
- <!-- Nav -->
- <div class="row">
+
+                        <!-- Nav -->
+                        <div class="row">
                             <nav class="navbar navbar-expand-lg navbar-light bg-white col-12">
                                 <button class="navbar-toggler d-lg-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
                                     <span class="navbar-toggler-icon"></span>
@@ -95,84 +92,106 @@
                                 </div>
                             </nav>
                         </div>
-                        <!-- Nav -->  
+                        <!-- Nav -->
 
                     </div>
                     <!-- Header -->
 
                 </header>
             </div>
-            <div class="col-md-12 col-lg-12">
-                            <div class="card">
-                                <div class="card-header">Users Data table</div>
-                                <div class="card-body">
-                                    <p class="card-title"></p>
-                                    <table class="table table-hover" id="dataTables-example" width="100%">
-                                        <thead>
-                                            <tr>
-                                                <th>ID</th>
-                                                <th>Name</th>
-                                                <th>Email</th>
-                                                <th>Password</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>Hari</td>
-                                                <td>haripriya@gmail.com</td>
-                                                <td>Hari@123</td>
-                                            </tr>
-                                            <tr>
-                                                <td>2</td>
-                                                <td>Priya</td>
-                                                <td>haripriya@gmail.com</td>
-                                                <td>Hari@123</td>
-                                            </tr>
-                                            <tr>
-                                                <td>3</td>
-                                                <td>Latha</td>
-                                                <td>haripriya@gmail.com</td>
-                                                <td>Hari@123</td>
-                                            </tr>
-                                            <tr>
-                                                <td>4</td>
-                                                <td>Janu</td>
-                                                <td>haripriya@gmail.com</td>
-                                                <td>Hari@123</td>
-                                            </tr>
-                                            <tr>
-                                                <td>5</td>
-                                                <td>Likith</td>
-                                                <td>haripriya@gmail.com</td>
-                                                <td>Hari@123</td>
-                                            </tr>
-                                            <tr>
-                                                <td>6</td>
-                                                <td>Vaishu</td>
-                                                <td>haripriya@gmail.com</td>
-                                                <td>Hari@123</td>
-                                            </tr>
-                                            <tr>
-                                                <td>7</td>
-                                                <td>Muna</td>
-                                                <td>haripriya@gmail.com</td>
-                                                <td>Hari@123</td>
-                                            </tr>
-                                            <tr>
-                                                <td>8</td>
-                                                <td>Divya</td>
-                                                <td>haripriya@gmail.com</td>
-                                                <td>Hari@123</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
             
+            <!--form to upload slides show-->
+            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade active show" id="general" role="tabpanel" aria-labelledby="general-tab">
+                                    <div class="col-md-6">
+                                    <form action="#">
+                                        <div class="form-group">
+                                            <div class="form-group">
+                                                <label for="exampleFormControlSelect1">Model Id</label>
+                                                <select class="form-control" id="exampleFormControlSelect1">
+                                                <option>sarees</option>
+                                                <option>Blouses</option>
+                                                <option>Dresses</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleFormControlInput1">Model Name</label>
+                                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Example Name">
+                                            </div>
+                                             <!--Switch code-->
+                                        <div class="custom-control custom-switch">
+                                            <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                                            <label class="custom-control-label" for="customSwitch1">Status</label>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleFormControlInput1">Cost</label>
+                                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="1000">
+                                            </div>
+                                            <label class="form-control-label">Model Image</label>
+                                            <div class="custom-file">
+                                                <input type="file" name="site_logo" class="custom-file-input">
+                                                <label class="custom-file-label">Choose File</label>
+                                            </div>
+                                        </div>
+                                        </form>
+                                        
+                                        <div class="form-group text-right">
+                                            <button class="btn btn-success" type="submit"><i class="fas fa-check"></i> Save</button>
+                                        </div>
+                                    </div>
+                                </div>
 
- <script src="assets/vendor/jquery/jquery.min.js"></script>
+
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+		<table class="table table-image">
+		  <thead>
+		    <tr>
+            <th scope="col">Model Id</th>
+            <th scope="col">Model Name</th>
+		      <th scope="col">Status</th>
+              <th scope="col">Cost</th>
+		      <th scope="col">Image</th>
+              <th scope="col">Action</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr>
+            <th scope="row">Sarees</th>
+            <td>White Saree with flowers</td>
+            <td>Active</td>
+            <td>4000</td>
+		      <td class="w-25">
+			      <img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/sheep-3.jpg" class="img-fluid img-thumbnail" alt="Sheep">
+		      </td>
+              <td> <a href="heart.php" class="header-item">
+                     <i class="fas fa-edit me-2"></i> </a>
+                    <a href="heart.php" class="header-item">
+                        <i class="fas fa-trash-alt me-2"></i> </a>
+                </td>
+		    </tr>
+		    <tr>
+            <th scope="row">Blouses</th>
+            <td>Red Colour Flowers</td>
+            <td>Deactive</td>
+            <td>6000</td>
+		      <td class="w-25">
+			      <img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/sheep-5.jpg" class="img-fluid img-thumbnail" alt="Sheep">
+		      </td>
+              <td> <a href="heart.php" class="header-item">
+                     <i class="fas fa-edit me-2"></i> </a>
+                    <a href="heart.php" class="header-item">
+                        <i class="fas fa-trash-alt me-2"></i> </a>
+                </td>
+		    </tr>
+		  </tbody>
+		</table>   
+    </div>
+  </div>
+</div>
+          
+<script src="assets/vendor/jquery/jquery.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/script.js"></script>
     <script type="text/javascript" src="js/jquery.min.js"></script>

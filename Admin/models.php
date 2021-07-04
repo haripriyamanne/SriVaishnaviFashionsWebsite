@@ -59,8 +59,8 @@
                             </div>
                         </div>
 
-                        <!-- Nav -->
-                        <div class="row">
+                      <!-- Nav -->
+                      <div class="row">
                             <nav class="navbar navbar-expand-lg navbar-light bg-white col-12">
                                 <button class="navbar-toggler d-lg-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
                                     <span class="navbar-toggler-icon"></span>
@@ -73,23 +73,14 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="models.php"> Models</a>
                                         </li>
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="fashion" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sale Products</a>
-                                            <div class="dropdown-menu" aria-labelledby="fashion">
-                                                <a class="dropdown-item" href="#">Sarees</a>
-                                                <a class="dropdown-item" href="#">Materials</a>
-                                                <a class="dropdown-item" href="#">Maggam Works</a>
-                                                <a class="dropdown-item" href="#">Computer Embroidery</a>
-                                                <a class="dropdown-item" href="#">Blouses</a>
-                                                <a class="dropdown-item" href="#">Long Frocks</a>
-                                                <a class="dropdown-item" href="#">Short Frocks</a>
-                                                <a class="dropdown-item" href="#">Lehangas</a>
-                                                <a class="dropdown-item" href="#">Dresses</a>
-                                                <a class="dropdown-item" href="#">Kurtis</a>
-                                                <a class="dropdown-item" href="#">Waist Belts</a>
-                                                <a class="dropdown-item" href="#">Kids Wear</a>
-                                                <a class="dropdown-item" href="#">Sharwani</a>
-                                            </div>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="modelproducts.php"> Model Products</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="sales.php">Sales</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="saleproducts.php">Sale Products</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="about.php">AboutUs</a>
@@ -112,7 +103,10 @@
             <div class="tab-content" id="myTabContent">
                                 <div class="tab-pane fade active show" id="general" role="tabpanel" aria-labelledby="general-tab">
                                     <div class="col-md-6">
-                                      
+                                    <div class="custom-control custom-switch">
+                                        <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                                        <label class="custom-control-label" for="customSwitch1">Status</label>
+                                        </div>
                                         <div class="form-group">
                                             <label for="site-title" class="form-control-label">Category Name</label>
                                             <input type="text" name="site_title" class="form-control">
@@ -121,18 +115,54 @@
                                             <label for="site-description" class="form-control-label">Site Description</label>
                                             <textarea class="form-control" name="site_description"></textarea>
                                         </div> -->
-                                        <div class="form-group">
+                                        <!-- <div class="form-group">
                                             <label class="form-control-label">Upload Image</label>
                                             <div class="custom-file">
                                                 <input type="file" name="site_logo" class="custom-file-input">
                                                 <label class="custom-file-label">Choose File</label>
                                             </div>
-                                        </div>
+                                        </div> -->
                                         <div class="form-group text-right">
                                             <button class="btn btn-success" type="submit"><i class="fas fa-check"></i> Save</button>
                                         </div>
                                     </div>
                                 </div>
+                                
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+		<table class="table table-image">
+		  <thead>
+		    <tr>
+		      <th scope="col">Status</th>
+		      <th scope="col">Category Name</th>
+              <th scope="col">Action</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr>
+		      <th scope="row">Active</th>
+              <td>Blouses</td>
+              <td> <a href="heart.php" class="header-item">
+                     <i class="fas fa-edit me-2"></i> </a>
+                    <a href="heart.php" class="header-item">
+                        <i class="fas fa-trash-alt me-2"></i> </a>
+                </td>
+		    </tr>
+		    <tr>
+		      <th scope="row">Deactive</th>
+		      <td>Old Sarees</td>
+              <td> <a href="heart.php" class="header-item">
+                     <i class="fas fa-edit me-2"></i> </a>
+                    <a href="heart.php" class="header-item">
+                        <i class="fas fa-trash-alt me-2"></i> </a>
+                </td>
+		    </tr>
+		  </tbody>
+		</table>   
+    </div>
+  </div>
+</div>
           
           
 <script src="assets/vendor/jquery/jquery.min.js"></script>

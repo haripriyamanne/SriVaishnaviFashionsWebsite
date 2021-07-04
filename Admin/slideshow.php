@@ -73,23 +73,14 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="models.php"> Models</a>
                                         </li>
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="fashion" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sale Products</a>
-                                            <div class="dropdown-menu" aria-labelledby="fashion">
-                                                <a class="dropdown-item" href="#">Sarees</a>
-                                                <a class="dropdown-item" href="#">Materials</a>
-                                                <a class="dropdown-item" href="#">Maggam Works</a>
-                                                <a class="dropdown-item" href="#">Computer Embroidery</a>
-                                                <a class="dropdown-item" href="#">Blouses</a>
-                                                <a class="dropdown-item" href="#">Long Frocks</a>
-                                                <a class="dropdown-item" href="#">Short Frocks</a>
-                                                <a class="dropdown-item" href="#">Lehangas</a>
-                                                <a class="dropdown-item" href="#">Dresses</a>
-                                                <a class="dropdown-item" href="#">Kurtis</a>
-                                                <a class="dropdown-item" href="#">Waist Belts</a>
-                                                <a class="dropdown-item" href="#">Kids Wear</a>
-                                                <a class="dropdown-item" href="#">Sharwani</a>
-                                            </div>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="modelproducts.php"> Model Products</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="sales.php">Sales</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="saleproducts.php">Sale Products</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="about.php">AboutUs</a>
@@ -108,12 +99,18 @@
 
                 </header>
             </div>
+            
             <!--form to upload slides show-->
             <div class="tab-content" id="myTabContent">
                                 <div class="tab-pane fade active show" id="general" role="tabpanel" aria-labelledby="general-tab">
                                     <div class="col-md-6">
                                     <form action="#">
                                         <div class="form-group">
+                                        <!--Switch code-->
+                                        <div class="custom-control custom-switch">
+                                            <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                                            <label class="custom-control-label" for="customSwitch1">Status</label>
+                                            </div>
                                             <label class="form-control-label">Slideshow Image</label>
                                             <div class="custom-file">
                                                 <input type="file" name="site_logo" class="custom-file-input">
@@ -127,6 +124,47 @@
                                         </div>
                                     </div>
                                 </div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+		<table class="table table-image">
+		  <thead>
+		    <tr>
+		      <th scope="col">Status</th>
+		      <th scope="col">Image</th>
+              <th scope="col">Action</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr>
+		      <th scope="row">Active</th>
+		      <td class="w-25">
+			      <img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/sheep-3.jpg" class="img-fluid img-thumbnail" alt="Sheep">
+		      </td>
+              <td> <a href="heart.php" class="header-item">
+                     <i class="fas fa-edit me-2"></i> </a>
+                    <a href="heart.php" class="header-item">
+                        <i class="fas fa-trash-alt me-2"></i> </a>
+                </td>
+		    </tr>
+		    <tr>
+		      <th scope="row">Deactive</th>
+		      <td class="w-25">
+			      <img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/sheep-5.jpg" class="img-fluid img-thumbnail" alt="Sheep">
+		      </td>
+              <td> <a href="heart.php" class="header-item">
+                     <i class="fas fa-edit me-2"></i> </a>
+                    <a href="heart.php" class="header-item">
+                        <i class="fas fa-trash-alt me-2"></i> </a>
+                </td>
+		    </tr>
+		  </tbody>
+		</table>   
+    </div>
+  </div>
+</div>
           
 <script src="assets/vendor/jquery/jquery.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

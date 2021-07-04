@@ -63,8 +63,8 @@
                             </div>
                         </div>
 
-                        <!-- Nav -->
-                        <div class="row">
+                       <!-- Nav -->
+                       <div class="row">
                             <nav class="navbar navbar-expand-lg navbar-light bg-white col-12">
                                 <button class="navbar-toggler d-lg-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
                                     <span class="navbar-toggler-icon"></span>
@@ -72,28 +72,19 @@
                                 <div class="collapse navbar-collapse" id="mainNav">
                                     <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
                                         <li class="nav-item active">
-                                            <a class="nav-link" href="slideshow.php">Slide show<span class="sr-only">(current)</span></a>
+                                            <a class="nav-link" href="slideshow.php">Slide show</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="models.php"> Models</a>
                                         </li>
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="fashion" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sale Products</a>
-                                            <div class="dropdown-menu" aria-labelledby="fashion">
-                                                <a class="dropdown-item" href="#">Sarees</a>
-                                                <a class="dropdown-item" href="#">Materials</a>
-                                                <a class="dropdown-item" href="#">Maggam Works</a>
-                                                <a class="dropdown-item" href="#">Computer Embroidery</a>
-                                                <a class="dropdown-item" href="#">Blouses</a>
-                                                <a class="dropdown-item" href="#">Long Frocks</a>
-                                                <a class="dropdown-item" href="#">Short Frocks</a>
-                                                <a class="dropdown-item" href="#">Lehangas</a>
-                                                <a class="dropdown-item" href="#">Dresses</a>
-                                                <a class="dropdown-item" href="#">Kurtis</a>
-                                                <a class="dropdown-item" href="#">Waist Belts</a>
-                                                <a class="dropdown-item" href="#">Kids Wear</a>
-                                                <a class="dropdown-item" href="#">Sharwani</a>
-                                            </div>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="modelproducts.php"> Model Products</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="sales.php">Sales</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="saleproducts.php">Sale Products</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="about.php">AboutUs</a>
